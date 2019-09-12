@@ -1,0 +1,13 @@
+#card-group > #chat-group:nth-child(odd) {
+  display: grid;
+  justify-content: start;
+}
+#card-group > #chat-group:nth-child(even) {
+  display: grid;
+  justify-content: end;
+  text-align: right;
+}
+
+#chat-group {
+  background-color: #e9ecef;
+}
