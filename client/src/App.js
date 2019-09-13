@@ -4,9 +4,9 @@ import './App.css';
 
 const App = () => {
   const [msg, setMsg] = useState([
-    { name: 'Test', msgBody: 'test' },
-    { name: 'Test', msgBody: 'test' },
-    { name: 'Test', msgBody: 'test' }
+    { name: 'User1', msgBody: 'Hello' },
+    { name: 'User2', msgBody: 'Hi' },
+    { name: 'User1', msgBody: 'How are you?' }
   ]);
 
   const [name, setName] = useState('');
@@ -30,7 +30,7 @@ const App = () => {
     <div className="App">
       <div className="container">
         <div className="jumbotron">
-          <h1 className="display-4">Send Message</h1>
+          <h1 className="display-4">Real Time Chat App</h1>
           <br />
           <form onSubmit={handleSubmit}>
             <input
